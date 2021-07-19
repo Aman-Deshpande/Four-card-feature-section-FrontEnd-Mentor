@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8%;
+    left: 38%;
+}
+
+.title .reliable{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.title .powered{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.second-title{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 24%;
+    left: 37%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.second-title > .to{
+    position: absolute;
+    left: 15%;
+    top: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.supervisor{
+    height: 28vh;
+    width: 22vw;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 7px hsla(180, 62%, 55%, 0.493);
+    box-shadow: 0 0 7px hsla(180, 62%, 55%, 0.527);
+}
+
+.supervisor > .title-sup{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.supervisor > .content{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.supervisor > img{
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+}
+
+
+.Team-Builder{
+    height: 28vh;
+    width: 22vw;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 7px hsl(0, 78%, 62%, 0.493);
+    box-shadow: 0 0 7px hsl(0, 78%, 62%, 0.493);
+}
+
+.Team-Builder > .title-builder{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Team-Builder > .contentbuilder{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.Team-Builder > img{
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+}
+
+.karma{
+    height: 28vh;
+    width: 22vw;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 7px hsl(34, 97%, 64%, 0.493);
+    box-shadow: 0 0 7px hsl(34, 97%, 64%, 0.493);
+}
+
+.karma > .title-karma{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.karma > .contentkarma{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.karma > img{
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+}
+
+.calculator{
+    height: 28vh;
+    width: 22vw;
+    border-top: 5px solid  hsl(212, 86%, 64%);
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 7px  hsl(212, 86%, 64%, 0.493);
+    box-shadow: 0 0 7px  hsl(212, 86%, 64%, 0.493);
+}
+
+.calculator > .title-calculator{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator > .contentcalculator{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.calculator > img{
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+}
